@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <B><H1>Registration Form</H1></B>
+    <hr>
+         <ul><li>Name is mandatory to fill</li></ul>
+        <UL><LI>Please check your details before submitting</LI></UL>
+    <br>
+        <label for="1">Username</label>
+        <form action="/submit_form"submit>
+            <input type="text" name="" id="1" required>
+            <br><br>
+            <label for="2">Email</label>
+            <br>
+            <input type="email" name="Email" id="2">
+            <br><br>
+            <label for="size">Merchandise Size</label>
+            <br>
+            <select name="T shirt Sizes" id="size">
+                <option value="">---please input size---</option>
+                <option value="38">38</option>
+                <option value="40">40</option>
+                <option value="42">42</option>
+                <option value="44">44</option>
+            </select>
+            <br><br>
+            <fieldset>
+                <legend>I give my consent to proceed:</legend>
+              
+                <div>
+                  <input type="checkbox" id="scales" name="yes" required/>
+                  <label for="consent">Click here to continue</label>
+                
+                </div>
+              </fieldset>
+
+            <br><br>
+            <button type="submit">Submit</button>
+            </form>
+            
+    
+</body>         
+</html>
